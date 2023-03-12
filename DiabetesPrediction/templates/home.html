@@ -1,0 +1,51 @@
+{%load static%}
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <style type=text/css>
+      
+        body{
+            background-image: url("{%static 'DiabetesPrediction/images/bg.jpg' %}")
+        }
+        .container{
+          margin-top: 200px;
+          color: white;
+        }
+        .container h1{
+          font-size:60px;
+          font-family: sans-serif;
+          font-weight: bold;
+
+        }
+        .container input{
+          font-size:30px;
+          font-family: sans-serif;
+          font-weight: bold;
+          width: 250px;
+          border: 1px white solid;
+          background-color: black;
+          color: white;
+          margin: 4px;
+          border-radius: 10px;
+        }
+
+
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class='container' >
+        <center><h1>Welcome to Diabetes Prediction System</h1>
+
+        <form action="predict">
+            <input type='submit' value='Lets Get Started'>
+        </form>
+      </center>
+        </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>
