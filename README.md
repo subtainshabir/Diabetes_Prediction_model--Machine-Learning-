@@ -1,2 +1,1 @@
-# Diabetes_Prediction_model--Machine-Learning-
-Here I built diabetes prediction model on python framework Django.
+In this project, I implement the K-Nearest Neighbors (KNN) algorithm to predict the presence or absence of Diabetes disease in patients based on a set of medical attributes. The dataset used for this project contains information about various health-related features that can influence the likelihood of diabetes disease. In addition, I worked on Django to make a user interface for users, where we can give the attributes as input, and with the help of a model it generates output either "Positive" or "Negative".
